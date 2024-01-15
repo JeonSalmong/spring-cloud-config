@@ -2,5 +2,11 @@ spring:
   datasource:
     url: "jdbc:h2:~/test3"
     driver-class-name: org.h2.Driver
-    #username: '{cipher}aef003ba1152d30e645b10d697da5369aa5b345e749779ecc14b0686b91393ab'
-    username: '{cipher}AQBcAWrmTdHfMQL85i6GBxc6uk1g3R85bslMximUcGaqysBlZrEZovlBMjCHTP5BiuaKHQSZpPyvBJHbjKIVZ6UJKU9E2ZfNDiICrv4Q06rsebFqj4Klk6WeiDI+50Z022D1xnfDDcd7WpP8ITn8VZqP5FF6DaF6+t27Y6gajBJ2JypWAR12zkB6ETMbr+ImpXmMPMdhVCbNj2A4njuUArqubWcjmxaXYBgtNfSbrB3zVbW5ttPuqjcIxQZ8LNjfvNu/T1dE64z2RJ64CdsPe+WLgqzmyzejBVZjIMNjlGirsqtywepDcwSlf5Tusxfwddn0O5lev+fJSX08PQeMRbUYm4CT7UiddX393WpmfEce7VacSqSKBN6ZTQnf9/t7mgY='
+    #username: '{cipher}aef003ba1152d30e645b10d697da5369aa5b345e749779ecc14b0686b91393ab' #대칭키 암호
+    username: '{cipher}AQBBeOAxx7i3WH16kN5DAWEu81lG954hF19M24jqa3T7OQpS84KgOlXY0AXV/MIeYLxA34BFF8RgGDgOm3Rdi8cWz105g+9NKGTPUVVIs/AjqpAZ2eIsm5m9DwiD2IfXWZxIFDXkFs7kWoe+oxbHzyC7hz8eJ20d362L6YVFeQT/cRTxElgnMZTbfTV/zqWs5BauTNBUzbB4u3vIP3CO7NGVrTFJknQZs4xgyTPDh0DenBn0qn5aQrIe2t+l4Ixam8RzqaXpnLCqE857z0Ft0B83/yLxGSszxDZ/xT2HPb79ESU/BFuJzSp7Dr7LzU3EA3G5PSrSP4TUOV2m7Oy7eKyJfJojocujfg3QohFMxo7D7r9DUud7Y8FZ/qL4LpWex0Y='   #비대칭키 암호
+  jwt:
+    token:
+      header: Authorization
+      type: Bearer
+      secret-key: '{cipher}AQBztdmGRtSy6vOu03qg+pGcbYaSUzJiacMRK1RybI8nskrn68S8Qn8+cDycBnxiRoDt7FiN6pOzqbvJbf4hYi8k38TmhObfOemFoktzuAHeGPunkkR79OA4NtkTfIyYAoCTA/3hR4RB6AhsroTGn+P80WG2ikR/rWMpJDizsvUGcbZ77X+QIu7Et5fYhYdCyveg/SNhRH4nzzM4jPWxyb0fw7ABDIjA7gC593wsbeU8jmoDSoB2twRi3DKWnI9e24Y/RsDC97Iuink9lwX3USVyIzu9+qgAWtyWc1chRfV3EiEuucs2TNiPaR+dJ2NIf02/FzeXu16PWJ8df76KQrZarLbX9TxJT8apwcbNDzPvXP0aw3fQu2LbTjeSKbuYKpfPX+vzAy/VMFSdcnl/DlGS'
+      expire-length: 864000000 # 10days
