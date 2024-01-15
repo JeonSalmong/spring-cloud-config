@@ -8,5 +8,5 @@ spring:
     token:
       header: Authorization
       type: Bearer
-      secret-key: '{cipher}AQBlX4cxcQ+PG+VMRvgwbkp0NlWiK2/HfD8NJbxQV4MxDcTkSs89G061439GabE3u4dgbK79DYfev8tAyK1s9wc0yXRtfz4VIvRBzKEzaj4TF+Sy9/Bsls8DnOXI/HDlAmyObIDDSCSa8x1K8vdeW4yY+jstrcrUqaCX8kPfyKlL4b0AB0jCymgapjAh0EBbEoac9l+QJ+6WaQURGlW/hgARI9CXbVOtYLPigt+JpsekxtLVC/9cUstLlIBtbd0LUmbhcHuJ1JYdWPeQxSaHTgfVoI0VkuxCWnVYOsYG5SJMNogvVYfEQ92BoYt1q2a5c052iIcBgDZbohzRxIZt1y3zuJgcyrqtAyccZKBm5tLn4/tSUWPJRKA2I7msUKsxeUhJ23MDG7DibJvV5lmdYPzM'
+      secret-key: '{cipher}AQBeB+jD71k1kJHe8kBMRPgtPgrBvf1R1V5WBLV5Fz+jNOIgSC8QBvbqI2/ARrYUs1QrlNRHZnCyKn015KLln2PcdxgDhUWOBcF8/B6shUcblVDLS850MD9dSyq7e7D0949a28IyvAlQL441sa5R6CQrzSEmY9UdrliGUPH1Dma91/pENYweIs8HSobQ+NdLd20wG3wwhsRtxclbT518os74W/3K3wGJg66LVa5Utap0jRn1EdI+UCho2cnyiXJGgeZ+5CjgTnY8K8m/0B3d2hdBTJp6o3duxJQNuVh/334KNooPz8aNJsSFc3w4Ymzkrl0muF/MKady1ISTCNBlhtRfLhwI0yssPbyJ555Dzms7duUJ1Z0mJ0VEpZwqFZU9ZI/req50CZThvvMNq9rbwwJ/mOrciHo5O/70PmC1o1jMeg=='
       expire-length: 864000000 # 10days
