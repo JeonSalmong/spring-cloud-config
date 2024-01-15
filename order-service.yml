@@ -2,5 +2,7 @@ spring:
     datasource:
         url: jdbc:mariadb://localhost:3306/mydb
         driver-class-name: org.mariadb.jdbc.Driver
-        username: '{cipher}78b55293a297fb718fab8c399380c615ce3ded6147ee1666bb3e14c86f1a2c89'
-        password: '{cipher}8e6306bc08236e97592a3343a5180379165fcbca5b4fb8ee65ffd652c3d91bc7'
+        #username: '{cipher}78b55293a297fb718fab8c399380c615ce3ded6147ee1666bb3e14c86f1a2c89' #대칭키암호화
+        #password: '{cipher}8e6306bc08236e97592a3343a5180379165fcbca5b4fb8ee65ffd652c3d91bc7' #대칭키암호화
+        username: '{cipher}AQCSy4m7xZA9Nt3fXoJmqeztgYinQcIiK7cn1mad0GDISTv+YJn3PNCUHdHFGHyBqsO+A953eWxwEiZN8UgMQkjYIjwdO5H33pqj8x8FgsFLxTijsAKEfakkg+BGCnH6zN0JatSHeoCTENwYnyOAIOrpRwOjjjYdNh8WJwUZkB1pc7sAt7XbU0NEdeKFq7/GGZbE1U7lovsp8vdL0P3TA2PIWmUi12SoPMDwww2iyqimInMSAMNbKYFwZxjo3Zx3qXmgznKmauQNnaMEsio1gONgOP830OHGWvfJjCHDDj1+sDG7ADUyz8/lrqLNl1zZhEY9EYGOpKf2rgPEkoNq6uUPfyVGMrhMuNlVDSDLMpkRbpcRYaFekn84YtMv9TYFlKA=' 
+        password: '{cipher}AQBaoPW278fLyBn29/nvDKRgfY9UJH/Ft9aSzePnqPTSMCzLuPRQHDQc3ATLo4HD9SJUeCscZlJ5mSRBWR7quxtdvlrUqyKCYNgQbzLtIQTUtBTpnKBJ5q+BOvf0tf6psrbc7H4NmO2kJHRDVBoydZJPAuYJV2If8lsdEOfDnN3v6okiMLKKACOXpTrr2/6qF+v1x8heP7PhBiocwQ5U4QPTZG64DAzuyASfePSE57pkY/73dna/Xtu7m4TVT5paG6qP+fVb6kYDLBf5AkY/CNy/DMZc+pETT0yfbI9CiRjgUKad946dMiKtSWrjGnCz1GFYX9qp6mS1ZFUatmDuZswd49htaHiE64p069CXwK30nYQhWr1tocTiVIEOjg8c4tY='

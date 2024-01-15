@@ -2,4 +2,5 @@ spring:
   datasource:
     url: "jdbc:h2:~/test3"
     driver-class-name: org.h2.Driver
-    username: '{cipher}aef003ba1152d30e645b10d697da5369aa5b345e749779ecc14b0686b91393ab'
+    #username: '{cipher}aef003ba1152d30e645b10d697da5369aa5b345e749779ecc14b0686b91393ab'
+    username: '{cipher}AQBcAWrmTdHfMQL85i6GBxc6uk1g3R85bslMximUcGaqysBlZrEZovlBMjCHTP5BiuaKHQSZpPyvBJHbjKIVZ6UJKU9E2ZfNDiICrv4Q06rsebFqj4Klk6WeiDI+50Z022D1xnfDDcd7WpP8ITn8VZqP5FF6DaF6+t27Y6gajBJ2JypWAR12zkB6ETMbr+ImpXmMPMdhVCbNj2A4njuUArqubWcjmxaXYBgtNfSbrB3zVbW5ttPuqjcIxQZ8LNjfvNu/T1dE64z2RJ64CdsPe+WLgqzmyzejBVZjIMNjlGirsqtywepDcwSlf5Tusxfwddn0O5lev+fJSX08PQeMRbUYm4CT7UiddX393WpmfEce7VacSqSKBN6ZTQnf9/t7mgY='
