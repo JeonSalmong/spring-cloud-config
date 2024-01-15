@@ -2,5 +2,5 @@ spring:
     datasource:
         url: jdbc:mariadb://localhost:3306/mydb
         driver-class-name: org.mariadb.jdbc.Driver
-        username: '{ciper}78b55293a297fb718fab8c399380c615ce3ded6147ee1666bb3e14c86f1a2c89'
-        password: '{ciper}8e6306bc08236e97592a3343a5180379165fcbca5b4fb8ee65ffd652c3d91bc7'
+        username: '{cipher}78b55293a297fb718fab8c399380c615ce3ded6147ee1666bb3e14c86f1a2c89'
+        password: '{cipher}8e6306bc08236e97592a3343a5180379165fcbca5b4fb8ee65ffd652c3d91bc7'

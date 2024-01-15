@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: "jdbc:h2:~/test3"
+    driver-class-name: org.h2.Driver
+    username: '{cipher}aef003ba1152d30e645b10d697da5369aa5b345e749779ecc14b0686b91393ab'
