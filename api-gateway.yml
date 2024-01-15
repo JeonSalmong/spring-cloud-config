@@ -1,0 +1,7 @@
+spring:
+  jwt:
+    token:
+      header: Authorization
+      type: Bearer
+      secret-key: '{cipher}AQArW2p8aTKyMbXjmu6XBLuvqrq7yBpCOV7xMigE0cBsxqTEpPGH/eT9/FLZA/R0wvB9Nd27nuw1CnK/cSbwEFAcHchCy4ez3gThj0VM5em7XcCg3cuW27g/DOhWET8mZ8Qo6TWJbc9KuRZHSUcXBZNbuYWdIewQhIPf9ig92D3T+V683HNYoHaG8O3TkD5zfIZE2Bym1EregzU9HPv4Bp9R047/dbADLGsEI6aItnveHCjYN6ZU0NbNQBuOrw3HZ6aj4JmjcA0Mkt/AtWv/u4INkjftm2EebhQnsDkYeCj+Lg0cD3RvqYWbc5Qzle3VENqOYRAaoA2UZGFYy+RYHqbzyrWNFWwZmHNB8YGv4IMvri2rDnEykUK7cHdux1VvVwyhoMeZzalqM2sLonXbvXiqilQTMxXknYhH7kctB9+T46qW7b+2IhmmfYrcoKmj2/c1POuffL/3SDgyBgTiZtZ+KUFmzvKZwtRO9mT+gd2dexVFXtdRk4eqTS/OV194VRI7TL8ZbvsvVyhMUhJAPuYI'
+      expire-length: 864000000 # 10days
