@@ -3,7 +3,7 @@ spring:
     url: "jdbc:h2:~/test3"
     driver-class-name: org.h2.Driver
     #username: '{cipher}aef003ba1152d30e645b10d697da5369aa5b345e749779ecc14b0686b91393ab' #대칭키 암호
-    username: '{cipher}AQBBeOAxx7i3WH16kN5DAWEu81lG954hF19M24jqa3T7OQpS84KgOlXY0AXV/MIeYLxA34BFF8RgGDgOm3Rdi8cWz105g+9NKGTPUVVIs/AjqpAZ2eIsm5m9DwiD2IfXWZxIFDXkFs7kWoe+oxbHzyC7hz8eJ20d362L6YVFeQT/cRTxElgnMZTbfTV/zqWs5BauTNBUzbB4u3vIP3CO7NGVrTFJknQZs4xgyTPDh0DenBn0qn5aQrIe2t+l4Ixam8RzqaXpnLCqE857z0Ft0B83/yLxGSszxDZ/xT2HPb79ESU/BFuJzSp7Dr7LzU3EA3G5PSrSP4TUOV2m7Oy7eKyJfJojocujfg3QohFMxo7D7r9DUud7Y8FZ/qL4LpWex0Y='   #비대칭키 암호
+    username: '{cipher}AQAjxj/PnvsQ9xDp2Lx8h2oeOEmXaQtg6yhat8I8h7TjN0r2FvI3f/WyRWRqyIND0xTBnvY4cuBjvgExe+vwDV9Kq03kwJPCRFBnjP3HugJJF5CwpKMJRK+kDMHm2atSWLqydX5Q6lxtTscYPWwjc2vZdKm0cUL4dSztJswW+wSjuAt1fICdIkJg0ZEyLc3vI9F1RjzcCb+3comkfE0PejW0Eyx4tg4S9c1EfRLOAnZmc0W1K0hFhzHHj0IqvXxzXCeLUPm2SQzRXazb2yomNC71NXOUFgdbCJwEEeX1hHrht5ZT9/MF2M8wFAJK0YqGHKt5/QvzbjmJD94fEOrgVZnwPsaYWzAeqnW8nowFnI0zU4xrW0CC//Sh0ZdqyWRpNkI='   #비대칭키 암호
   jwt:
     token:
       header: Authorization
