@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@wwzud6xn0pt1lcji_high?TNS_ADMIN=./src/main/resources/wallet/
+    username: ADMIN
+    password: oracleJsm6002@
