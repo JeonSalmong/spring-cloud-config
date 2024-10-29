@@ -2,5 +2,5 @@ spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
     url: jdbc:oracle:thin:@wwzud6xn0pt1lcji_high?TNS_ADMIN=/home/opc/wallet/
-    username: ADMIN
-    password: oracleJsm6002@
+    username: '{cipher}AQAfGACN1PZbGx00/obHAQXHuENc3PLwLidQXEW7cn0Hw2iKAX3Q+C3N15tf9BkOda5LTf1GSOTRsqsTChk5sws8DeXaIEF6OqP43SNXBeQKgryZHH58ytFTg9N/jFS4fEyl43dHLpfU0uacJFz0/fwd0tDyZsfwmuu652z+OWaHy/FW76+rBadQyDnI9z2wDpoyobZni8IvnFJgyoW54dUJw1o4pzOv65DOvMnSDGiBRugsvTunD0E7C+01GP2SbDkth6xsbwfJRqabGgjitGO3rzRMHTGWx1pLHVA8xI7zf87gDrG4K2JAqPSJXwEjN4BDgBsSzQmCjDTaaks3AhE2PJvRUE6JbHQxA56K63dHr06bxqyLZHV0gCoUTPB/4T8='
+    password: '{cipher}AQCdd1OmdP/dc4s6WlFb4gk9q04nx4v3GQVHneKidZ8GE89mZ1FzT/NDyofpXGKNI6D8WUZGOU5psTa9LdOfH2Yw4Pygr9qHGKvocLFfNBmnxiC3Y60GXA29ZcnvgELC38u7atqX8ozsgvsEP+3H3Kk3IOOCL1MYeWYCIzE8u2WH9jFT/cXKNMCI5hRAULDvPtVwEpCG5PXikXvgiOpEnYHGMvMSiZV23jiQDjXEYLlbHXhKpqqeP17qWO/BkjQqE6+6P1GFWmttyyC19DN3KLFcT5u9cQLlLMq10NzPS+YQPJ6t9FL45Bg9WzJUQjJnhcWVBncLzFAoef8AzlYRSZ/Wn/hBfQ+cGax6z7XWrDVB4ARZA+pDns/bn0SY9xhr2
